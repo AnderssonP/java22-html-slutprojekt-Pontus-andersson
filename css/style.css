@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.projekt {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.projekt2 {
+    flex-basis: 25%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #777;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+footer img{
+    height: 50px;
+}
+
+div p {
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.background {
+    display: flex;
+    justify-content: space-between;
+}
+
+.singel {
+    flex-basis: 29%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.three {
+    flex-basis: 5rem;
+}
+
+body {
+    background-color: beige;
+}
+
+.page2 {
+    height: 100vh;
+    padding-top: 10vh;
+}
+
+.border {
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px #000000;
+    transition: transform .2s
+}
+.border:hover{
+    transform: scale(1.2)
+}
+
+
+.page {
+    height: 100vh;
+    
+}
+
+.bg-image {
+
+    background-image: url("../image/Jag.jpg");
+
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: beige;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
